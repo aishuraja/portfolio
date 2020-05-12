@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+body{
+    background-image: url(img/wall.png);
+    background-size: cover;
+    background-position: center;
+   
+    font-family: sans-serif;
+}
+img{
+    width: 200px;
+    height: 400px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.aishu{
+     width: 600px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+    margin:inherit;
+    margin-top: 5%;
+    color: white;
+    font-family:fantasy;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.aishu h1{
+     font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-right: 2em;
+    text-align:justify;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-position: alphabetic;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color:#D6CE15;
+}
+.aishu p{
+    
+    color: #16FFBD;
+    text-align: justify,center;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    font-family: 'Montserrat', sans-serif;
+}
